@@ -6,7 +6,8 @@ An AI-powered platform that transforms local and YouTube videos into searchable 
    https://ai-video-intelligence-knowledge-synthesis-platform-6rqpdgmav5a.streamlit.app/
 ##
 ##  🎥 Demo Video
-https://github.com/user-attachments/assets/419658dd-6463-4c48-b05a-2d187ae6c402
+
+https://github.com/user-attachments/assets/515e9443-d3f6-4d14-99b4-6e63cc2b28e0
 
 
 ##  Project Features 
