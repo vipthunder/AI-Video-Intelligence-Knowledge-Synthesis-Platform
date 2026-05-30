@@ -433,7 +433,7 @@ left_col, right_col = st.columns([1.1, 0.9], gap="large")
 
 # -----------LEFT — INPUT  --------------------------------       
 with left_col:
-    st.markdown('<span class="section-label">📥 Video Sources</span>', unsafe_allow_html=True)
+    st.markdown('<span class="section-label"> Video Sources</span>', unsafe_allow_html=True)
 
     with st.container():
         uploaded_videos = st.file_uploader(
@@ -453,7 +453,7 @@ with left_col:
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    process_btn = st.button("⚡  Process Videos", use_container_width=True)
+    process_btn = st.button("  Process Videos", use_container_width=True)
 
     # ── Processing logic ────────────────────────────────────────────────────
     if process_btn:
@@ -532,7 +532,7 @@ with left_col:
                     with st.expander("Error details"):
                         st.exception(e)
 
-            st.success(f"✅  {total_videos} video(s) processed and ready for Q&A.")
+            st.success(f"  {total_videos} video(s) processed and ready for Q&A.")
 
 
 # Right-chat
