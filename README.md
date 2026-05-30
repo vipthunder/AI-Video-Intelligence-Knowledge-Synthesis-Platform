@@ -35,21 +35,21 @@ https://github.com/user-attachments/assets/515e9443-d3f6-4d14-99b4-6e63cc2b28e0
 
 ##  Project Workflow
 
-- Video(local/youtube urls)
+ Video(local/youtube urls)
          ↓
-- Audio Extraction
+ Audio Extraction
          ↓
-- Transcription( Whisper AI)
+ Transcription( Whisper AI)
          ↓ 
-- Chunking
+ Chunking
          ↓
-- Embeddings(Gemini embedding)
+ Embeddings(Gemini embedding)
          ↓
-- ChromaDB
+ ChromaDB
          ↓
-- Retriever(mmr)
+ Retriever(mmr)
          ↓  
-- Gemini(LLM)
+ Gemini(LLM)
          ↓
-- Answer and cross question 
+ Answer and cross question 
   
