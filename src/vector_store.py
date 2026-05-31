@@ -21,9 +21,12 @@ def create_vector_store(chunks, video_name):
     # Metadata for each chunk
     metadatas = [
         {
-            "video_name": video_name
+            "video_name": video_name,
+            "chunk_id": i,
+            "start_time": chunk["start"],
+            "end_time": chunk["end"]
         }
-        for _ in chunks
+        for i , chunk in enumerate(chunks)
     ]
 
     # Unique IDs for each chunk
