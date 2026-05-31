@@ -1,4 +1,4 @@
-# AI Video Intelligence & Knowledge Synthesis Platform
+# Video-Intel-AI
 
 An AI-powered platform that transforms local and YouTube videos into searchable knowledge using transcription, semantic search, Retrieval-Augmented Generation (RAG), and Gemini-powered  cross-question answering.
 
