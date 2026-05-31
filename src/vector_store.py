@@ -41,7 +41,7 @@ def create_vector_store(chunks, video_name):
 
     # Add chunks to collection
     vector_store.add_texts(
-        texts=chunks,
+        texts=[chunk["text"] for chunk in chunks],
         metadatas=metadatas,
         ids=ids
     )
