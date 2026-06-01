@@ -8,7 +8,7 @@
 __pycache__/
 *.pyc
 
-# ChromaDB
+# ChromaDB( stores the embeddings)
 chroma_db/
 
 # Temporary Files( save .wav files of uploaded videos)
